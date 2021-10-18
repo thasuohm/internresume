@@ -1,13 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin-top: 5px;
+  font-family: "Raleway", sans-serif;
+  color: #383838;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #383838;
+  color: white;
+  width: 100%;
+  padding: 1px 0 1px 0;
+  border-radius: 19px 19px 0 0;
+  font-family: "Noto Sans Mono", monospace;
+  font-size: 24px;
+}
+
+.header > * {
+  padding-left: 30px;
+}
+
+.profileContent {
+  margin-top: 5px;
+  padding: 20px 20px 20px 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  width: 98%;
+  position: relative;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+.profileContent > * {
+  padding-left: 30px;
+}
+
+.image {
+  width: 130px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.info * {
+  font-size: 13px;
+}
+
+.projectContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imageProject {
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.desProj {
+  margin-top: -2px;
+}
+
+.skillContainer {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+}
+
+.logoCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-color: #e6e8eb;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
+  border-radius: 20px;
+  height: 125px;
+  margin: 10px;
+  border-width: 1px;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.bottomBorder {
+  background-color: #383838;
+
+  width: 100%;
+  padding-top: 20px;
+  border-radius: 0 0 19px 19px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
