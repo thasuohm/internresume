@@ -12,8 +12,9 @@ body {
 }
 
 .container {
-  position: relative;
-  width: 50%;
+  max-width: 825px;
+
+  width: 97%;
   margin: 0 auto;
 }
 
@@ -41,6 +42,17 @@ body {
   position: relative;
 }
 
+@media (max-width: 800px) {
+  .profileContent {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+  }
+}
+
 .name {
   font-weight: 600;
   font-size: 26px;
@@ -50,6 +62,26 @@ body {
 
 .profileContent > * {
   padding-left: 30px;
+}
+
+.iconText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.iconText > p {
+  padding-left: 5px;
+}
+
+a {
+  color: #383838;
+  transition: 0.3s;
+}
+
+a:hover {
+  cursor: pointer;
+  color: black;
 }
 
 .image {
@@ -75,15 +107,47 @@ body {
   width: 600px;
 }
 
+@media (max-width: 800px) {
+  .imageProject {
+    position: relative;
+    width: 320px;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .desProj {
+    padding: 0 20px 20px 20px;
+  }
+}
+
 .desProj {
   margin-top: -2px;
 }
+.f21 {
+  font-size: 21px;
+}
+
+@media (max-width: 800px) {
+  .plr-20 {
+    padding-left: 20px;
+  }
+}
 
 .skillContainer {
-  margin-top: 50px;
+  margin-top: 30px;
   display: grid;
   grid-template-columns: auto auto auto auto;
   align-items: center;
+}
+
+@media (max-width: 800px) {
+  .skillContainer {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+  }
 }
 
 .logoCard {
@@ -98,6 +162,11 @@ body {
   height: 125px;
   margin: 10px;
   border-width: 1px;
+}
+
+.logoCard > div:last-child {
+  padding-top: 6px;
+  margin-bottom: -5px;
 }
 
 .logo {

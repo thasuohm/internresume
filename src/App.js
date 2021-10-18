@@ -10,6 +10,9 @@ import mui from "./images/logoSkill/mui.png";
 import tailwind from "./images/logoSkill/tailwind.jpg";
 import git from "./images/logoSkill/git.png";
 import linux from "./images/logoSkill/linux.jpg";
+import PhoneIcon from "@material-ui/icons/Phone";
+import EmailIcon from "@material-ui/icons/Email";
+import GitHubIcon from "@material-ui/icons/GitHub";
 
 function App() {
   return (
@@ -28,18 +31,24 @@ function App() {
           </div>
           <div className="info">
             <p>School of Information Technology, KMUTT </p>
-            <span>
-              <p> thanapat.thz@mail.kmutt.ac.th</p>
-            </span>
-            <span>
-              <p> 0618969299</p>
-            </span>
+            <div className="iconText">
+              <EmailIcon /> <p>thanapat.thz@mail.kmutt.ac.th</p>
+            </div>
+            <div className="iconText">
+              <PhoneIcon /> <p>0618969299</p>
+            </div>
+            <div className="iconText">
+              <GitHubIcon />{" "}
+              <p>
+                <a href="https://github.com/thasuohm">thasuohm</a>
+              </p>
+            </div>
           </div>
         </div>
 
         <div style={{ marginTop: "50px" }}>
           <p>
-            <b>My Skills</b>
+            <b className="f21 plr-20">My Skills</b>
           </p>
           <div className="skillContainer">
             <div className="logoCard">
@@ -72,13 +81,13 @@ function App() {
               <div>
                 <img src={react} alt="react" className="logo" />
               </div>
-              <div>react</div>
+              <div>React</div>
             </div>
             <div className="logoCard">
               <div>
                 <img src={vue} alt="vue" className="logo" />
               </div>
-              <div>vue</div>
+              <div>Vue</div>
             </div>
             <div className="logoCard">
               <div>
@@ -96,7 +105,7 @@ function App() {
               <div>
                 <img src={tailwind} alt="tailwinds" className="logo" />
               </div>
-              <div>tailwinds</div>
+              <div>tailwind</div>
             </div>
             <div className="logoCard">
               <div>
@@ -115,7 +124,7 @@ function App() {
 
         <div className="projectContainer">
           <p style={{ marginBottom: "50px" }}>
-            <b>My project experience</b>
+            <b className="f21 plr-20">My project experience</b>
           </p>
           <div className="project">
             <img src={project1} alt="project1" className="imageProject" />
