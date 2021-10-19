@@ -7,6 +7,7 @@ import project22 from "./images/project2-2.png";
 import project31 from "./images/project3-1.png";
 import project32 from "./images/project3-2.png";
 import project33 from "./images/project3-3.png";
+import project34 from "./images/project3-4.png";
 import html from "./images/logoSkill/html.png";
 import css from "./images/logoSkill/css.png";
 import js from "./images/logoSkill/js.png";
@@ -147,8 +148,9 @@ function App() {
               <b className="noto">#2 product management application </b>
               <span>
                 {" "}
-                This project is a product management system by connecting the
-                API to add, delete, edit product information.
+                This is a project that connects with an API to add, delete and
+                edit data in the database and use a CSS framework to make
+                decoration easier.
               </span>
               <div className="mt-20 b noto">Built with : Vue, tailwind</div>
             </div>
@@ -158,22 +160,24 @@ function App() {
 
           <div className="project mt-20">
             <div className="desProj">
-              <b className="noto">#3 online shopping application</b>
+              <b className="noto">#3 online shopping application </b>
               <span>
-                , this system is a system that divides users into 2 roles:
-                general user and admin. To purchase products, users must be
-                logged in first, and users can add, delete, edit their own
-                products only. Including when the purchase is successful, users
-                will be able to view the purchase history and can comment on the
-                product.As for admins, they can do everything like normal users.
-                But they can add, edit, delete product categories, and they can
-                manage general user information.
+                This project is a project that has authentication users to
+                access and manage information for their own users only. we have
+                two roles of users in this system, to practice managing users in
+                various roles and use redux to handle state management.
+                (reference design from{" "}
+                <a href="https://www.phoenixnext.com/new-release.html">
+                  phoenixnext
+                </a>
+                )
               </span>
               <div className="mt-20 b noto">
                 Built with : React, Redux, React router, Material-UI
               </div>
             </div>
             <img src={project31} alt="project31" className="imageProject" />
+            <img src={project34} alt="project34" className="imageProject" />
             <img src={project32} alt="project32" className="imageProject" />
             <img src={project33} alt="project33" className="imageProject" />
           </div>
