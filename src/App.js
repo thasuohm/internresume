@@ -1,5 +1,12 @@
 import member37 from "./images/member37.jpg";
-import project1 from "./images/project1.png";
+import project11 from "./images/project1-1.png";
+import project12 from "./images/project1-2.png";
+import project13 from "./images/project1-3.png";
+import project21 from "./images/project2-1.png";
+import project22 from "./images/project2-2.png";
+import project31 from "./images/project3-1.png";
+import project32 from "./images/project3-2.png";
+import project33 from "./images/project3-3.png";
 import html from "./images/logoSkill/html.png";
 import css from "./images/logoSkill/css.png";
 import js from "./images/logoSkill/js.png";
@@ -35,7 +42,7 @@ function App() {
               <EmailIcon /> <p>thanapat.thz@mail.kmutt.ac.th</p>
             </div>
             <div className="iconText">
-              <PhoneIcon /> <p>0618969299</p>
+              <PhoneIcon /> <p className="noto">0618969299</p>
             </div>
             <div className="iconText">
               <GitHubIcon />{" "}
@@ -46,9 +53,9 @@ function App() {
           </div>
         </div>
 
-        <div style={{ marginTop: "50px" }}>
+        <div className="myskill">
           <p>
-            <b className="f21 plr-20">My Skills</b>
+            <b className="f21 plr-20">Skills</b>
           </p>
           <div className="skillContainer">
             <div className="logoCard">
@@ -123,39 +130,47 @@ function App() {
         </div>
 
         <div className="projectContainer">
-          <p style={{ marginBottom: "50px" }}>
+          <p style={{ marginBottom: "20px" }}>
             <b className="f21 plr-20">My project experience</b>
           </p>
           <div className="project">
-            <img src={project1} alt="project1" className="imageProject" />
             <p className="desProj">
-              <b>#1 Web Copy project (HTML, CSS, JS)</b>,This project is based
-              on Dropbox, intended to practice HTML CSS JS.
+              <b className="noto">#1 Web Copy project</b>
+              ,referrence from Dropbox, intended to practice HTML CSS JS.
+              <p className="b">Built with : HTML, CSS, JS</p>
             </p>
+            <img src={project11} alt="project11" className="imageProject" />
+            <img src={project12} alt="project12" className="imageProject" />
+            <img src={project13} alt="project13" className="imageProject" />
           </div>
 
           <div className="project">
-            <img src={project1} alt="project2" className="imageProject" />
+            {" "}
             <p className="desProj">
-              <b>#2 product management system ( Vue, tailwind ) </b> This
-              project is a product management system by contacting the API to
-              add, delete, edit product information. ,
+              <b className="noto">#2 product management system </b> This project
+              is a product management system by contacting the API to add,
+              delete, edit product information.
+              <p className="b">Built with : Vue, tailwind</p>
             </p>
+            <img src={project21} alt="project21" className="imageProject" />
+            <img src={project22} alt="project22" className="imageProject" />
           </div>
 
-          <div className="project">
-            <img src={project1} alt="project3" className="imageProject" />
+          <div className="project mt-20">
             <p className="desProj">
-              <b>
-                #3 online shopping system (React, Redux, Material-UI,React
-                router)
-              </b>
-              , It is a system with two user roles: general users and admin. To
-              purchase products, you must be logged in first, and users can add,
-              delete, edit their own products only. Including when the purchase
-              is successful, user will be able to view the purchase history and
-              can comment on the product.
+              <b className="noto">#3 online shopping system</b>, It is a system
+              with two user roles: general users and admin. To purchase
+              products, you must be logged in first, and users can add, delete,
+              edit their own products only. Including when the purchase is
+              successful, user will be able to view the purchase history and can
+              comment on the product.
+              <p className="b">
+                Built with : React, Redux, Material-UI,React router
+              </p>
             </p>
+            <img src={project31} alt="project31" className="imageProject" />
+            <img src={project32} alt="project32" className="imageProject" />
+            <img src={project33} alt="project33" className="imageProject" />
           </div>
         </div>
       </div>
