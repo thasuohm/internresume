@@ -18,7 +18,7 @@ import mui from "./images/logoSkill/mui.png";
 import tailwind from "./images/logoSkill/tailwind.jpg";
 import git from "./images/logoSkill/git.png";
 import linux from "./images/logoSkill/linux.jpg";
-import sql from "./images/logoSkill/sql.jpg";
+import sql from "./images/logoSkill/sql.png";
 import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
 import GitHubIcon from "@material-ui/icons/GitHub";
