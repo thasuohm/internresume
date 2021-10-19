@@ -18,6 +18,7 @@ import mui from "./images/logoSkill/mui.png";
 import tailwind from "./images/logoSkill/tailwind.jpg";
 import git from "./images/logoSkill/git.png";
 import linux from "./images/logoSkill/linux.jpg";
+import sql from "./images/logoSkill/sql.jpg";
 import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
 import GitHubIcon from "@material-ui/icons/GitHub";
@@ -121,6 +122,13 @@ function App() {
                 <img src={linux} alt="linux" className="logo" />
               </div>
               <div>linux</div>
+            </div>
+
+            <div className="logoCard">
+              <div>
+                <img src={sql} alt="sql" className="logo" />
+              </div>
+              <div>SQL</div>
             </div>
           </div>
         </div>
