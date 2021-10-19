@@ -27,7 +27,7 @@ function App() {
     <div className="container">
       <div>
         <div className="header">
-          <p>RESUME</p>
+          <p>Port Folio</p>
         </div>
         <div className="profileContent">
           <div>
