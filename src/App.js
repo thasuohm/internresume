@@ -68,12 +68,7 @@ function App() {
             <div className="logoCard">
               <div>
                 {" "}
-                <img
-                  src={css}
-                  alt="css"
-                  className="logo"
-                  style={{ width: "60px", height: "auto" }}
-                />
+                <img src={css} alt="css" className="logo" />
               </div>
               <div>CSS</div>
             </div>
@@ -131,14 +126,16 @@ function App() {
 
         <div className="projectContainer">
           <p style={{ marginBottom: "20px" }}>
-            <b className="f21 plr-20">My project experience</b>
+            <b className="f21 plr-20">My projects</b>
           </p>
           <div className="project">
-            <p className="desProj">
+            <div className="desProj">
               <b className="noto">#1 Web Copy project</b>
-              ,referrence from Dropbox, intended to practice HTML CSS JS.
-              <p className="b">Built with : HTML, CSS, JS</p>
-            </p>
+              <span>
+                , reference from Dropbox, intended to practice HTML CSS JS.
+              </span>
+              <div className="mt-20 b noto">Built with : HTML, CSS, JS</div>
+            </div>
             <img src={project11} alt="project11" className="imageProject" />
             <img src={project12} alt="project12" className="imageProject" />
             <img src={project13} alt="project13" className="imageProject" />
@@ -146,28 +143,36 @@ function App() {
 
           <div className="project">
             {" "}
-            <p className="desProj">
-              <b className="noto">#2 product management system </b> This project
-              is a product management system by contacting the API to add,
-              delete, edit product information.
-              <p className="b">Built with : Vue, tailwind</p>
-            </p>
+            <div className="desProj">
+              <b className="noto">#2 product management application </b>
+              <span>
+                {" "}
+                This project is a product management system by connecting the
+                API to add, delete, edit product information.
+              </span>
+              <div className="mt-20 b noto">Built with : Vue, tailwind</div>
+            </div>
             <img src={project21} alt="project21" className="imageProject" />
             <img src={project22} alt="project22" className="imageProject" />
           </div>
 
           <div className="project mt-20">
-            <p className="desProj">
-              <b className="noto">#3 online shopping system</b>, It is a system
-              with two user roles: general users and admin. To purchase
-              products, you must be logged in first, and users can add, delete,
-              edit their own products only. Including when the purchase is
-              successful, user will be able to view the purchase history and can
-              comment on the product.
-              <p className="b">
-                Built with : React, Redux, Material-UI,React router
-              </p>
-            </p>
+            <div className="desProj">
+              <b className="noto">#3 online shopping application</b>
+              <span>
+                , this system is a system that divides users into 2 roles:
+                general user and admin. To purchase products, users must be
+                logged in first, and users can add, delete, edit their own
+                products only. Including when the purchase is successful, users
+                will be able to view the purchase history and can comment on the
+                product.As for admins, they can do everything like normal users.
+                But they can add, edit, delete product categories, and they can
+                manage general user information.
+              </span>
+              <div className="mt-20 b noto">
+                Built with : React, Redux, React router, Material-UI
+              </div>
+            </div>
             <img src={project31} alt="project31" className="imageProject" />
             <img src={project32} alt="project32" className="imageProject" />
             <img src={project33} alt="project33" className="imageProject" />

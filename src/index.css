@@ -107,13 +107,18 @@ a:hover {
 }
 
 .image {
-  width: 130px;
+  width: 132px;
   height: auto;
   border-radius: 10px;
 }
 
 .info * {
   font-size: 13px;
+}
+
+.info {
+  position: relative;
+  width: 100%;
 }
 
 .projectContainer {
@@ -126,8 +131,6 @@ a:hover {
 .project {
   padding-top: 20px;
 }
-
-
 
 .imageProject {
   position: relative;
@@ -161,6 +164,11 @@ a:hover {
 .desProj {
   margin-top: -2px;
 }
+
+.desProj > span {
+  line-height: 1.6;
+}
+
 .f21 {
   font-size: 21px;
 }
@@ -207,8 +215,8 @@ a:hover {
 }
 
 .logo {
-  width: 80px;
-  height: auto;
+  width: auto;
+  height: 75px;
 }
 
 .bottomBorder {
