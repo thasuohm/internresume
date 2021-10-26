@@ -104,6 +104,7 @@ a {
 a:hover {
   cursor: pointer;
   color: black;
+  text-decoration : none;
 }
 
 .image {
