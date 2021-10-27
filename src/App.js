@@ -4,7 +4,18 @@ import EmailIcon from "@material-ui/icons/Email";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import Skills from "./Components/Skills.js";
 import Projects from "./Components/Projects.js";
-function App() {
+import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
+import { useCallback, useEffect, useState } from "react";
+const App = () => {
+  const [current, setCurrent] = useState(0);
+  const handlePosition = useCallback(() => {
+    setCurrent(window.scrollY);
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handlePosition);
+  }, [handlePosition]);
+
   return (
     <div className="container">
       <div>
@@ -65,8 +76,15 @@ function App() {
         </div>
       </div>
       <div className="bottomBorder" />
+      {current > 0 && (
+        <KeyboardArrowUpIcon
+          className="arrowIcon"
+          style={{ fontSize: "40px" }}
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        />
+      )}
     </div>
   );
-}
+};
 
 export default App;

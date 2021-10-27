@@ -21,14 +21,14 @@ function Projects() {
     {
       title: "#2 Product Management Application",
       description:
-        "This is a project that connects with an API to add, delete and edit data in the database and use a CSS framework to make decoration easier.",
+        ", This is a project that connects with an API to add, delete and edit data in the database and use a CSS framework to make decoration easier.",
       img: [project21, project22],
       builtWith: "Vue, tailwind",
     },
     {
       title: "#3 Online Shopping Application",
       description:
-        "This project is a project that has authentication users to access and manage information for their own users only. we have two roles of users in this system, to practice managing users in various roles and use redux to handle state management.",
+        ", This project is a project that has authentication users to access and manage information for their own users only. we have two roles of users in this system, to practice managing users in various roles and use redux to handle state management.",
       img: [project31, project32, project33, project34],
       builtWith: "React, Redux, React router, Material-UI",
       ref: {
