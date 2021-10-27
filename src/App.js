@@ -47,9 +47,9 @@ const App = () => {
           </div>
         </div>
 
-        <div className="borderBottom -mt-10">
+        <div className="borderBottom">
           <p>
-            <b className="f21 plr-20 ">Inspire</b>
+            <b className="f21">Inspire</b>
           </p>
           <span>
             Since I have started developing web applications. I'm pretty much
@@ -62,15 +62,15 @@ const App = () => {
 
         <div className="borderBottom">
           <p>
-            <b className="f21 plr-20">Skills</b>
+            <b className="f21">Skills</b>
           </p>
           <div className="skillContainer">
             <Skills />
           </div>
         </div>
         <div className="projectContainer">
-          <p style={{ marginBottom: "20px" }}>
-            <b className="f21 plr-20">My Projects</b>
+          <p>
+            <b className="f21 ">My Projects</b>
           </p>
           <Projects />
         </div>

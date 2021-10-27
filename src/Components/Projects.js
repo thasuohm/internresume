@@ -42,7 +42,7 @@ function Projects() {
     <>
       {projects.map((pro) => {
         return (
-          <div className="project">
+          <div className="project mt-10">
             <div className="desProj">
               <b className="noto">{pro.title}</b>
               <span>{pro.description}</span>
