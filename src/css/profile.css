@@ -1,0 +1,68 @@
+.profileContent {
+  margin-top: 5px;
+  padding: 20px 20px 20px 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  width: 98%;
+  position: relative;
+  border-color: #383838;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+}
+
+.image {
+  width: 145px;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+  .profileContent {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    border-color: #383838;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+  }
+}
+
+.name {
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+.profileContent > * {
+  padding-left: 30px;
+}
+
+.iconText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.iconText > p {
+  padding-left: 5px;
+}
+
+.info * {
+  font-size: 14px;
+}
+
+@media (max-width: 800px) {
+  .info * {
+    font-size: 15px;
+  }
+}
+
+.info {
+  position: relative;
+  width: 100%;
+}

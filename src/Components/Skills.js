@@ -10,7 +10,7 @@ import tailwind from "../images/logoSkill/tailwind.jpg";
 import git from "../images/logoSkill/git.png";
 import linux from "../images/logoSkill/linux.jpg";
 import sql from "../images/logoSkill/sql.png";
-
+import "../css/skills.css";
 function Skills() {
   const skills = [
     { src: html, name: "HTML" },

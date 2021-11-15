@@ -6,6 +6,8 @@ import Skills from "./Components/Skills.js";
 import Projects from "./Components/Projects.js";
 import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
 import { useCallback, useEffect, useState } from "react";
+import "./css/profile.css";
+import "./css/layout.css";
 const App = () => {
   const [current, setCurrent] = useState(0);
   const handlePosition = useCallback(() => {
