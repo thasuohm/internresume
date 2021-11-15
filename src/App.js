@@ -55,10 +55,10 @@ const App = () => {
           </p>
           <span>
             Since I have started developing web applications. I'm pretty much
-            interested in front-end development, creating user-friendly
-            applications and keeping the code clean and legible. I feel that
-            it's the charm that really attracts me and gives me the inspiration
-            to become a front-end developer.
+            interested in creating user-friendly applications, trying to keep
+            the code clean, and finding a way to increase code performance. I
+            feel that it's the charm that really attracts me to coding and gives
+            me the inspiration to become a front-end developer.
           </span>
         </div>
 
