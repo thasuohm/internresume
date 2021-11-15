@@ -30,7 +30,7 @@ function Skills() {
     <>
       {skills.map((s) => {
         return (
-          <div className="logoCard">
+          <div className="logoCard" key={s.name}>
             <div>
               {" "}
               <img src={s.src} alt={s.src} className="logo" />

@@ -23,6 +23,10 @@ body {
   padding-top: 10px;
 }
 
+.pb-10 {
+  padding-bottom: 10px;
+}
+
 .mt-10 {
   margin-top: 10px;
 }
@@ -42,6 +46,14 @@ a:hover {
   text-decoration: none;
 }
 
+.f18 {
+  font-size: 18px;
+}
+
 .f21 {
   font-size: 21px;
+}
+
+.text-center {
+  text-align: center;
 }
