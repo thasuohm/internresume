@@ -19,7 +19,9 @@ function Projects() {
       description:
         ", reference from Dropbox, intended to practice HTML CSS JS.",
       img: [project11, project12, project13],
-      builtWith: "HTML, CSS, JS",
+      builtWith: "HTML, CSS",
+      linkDes: "Tailwind(ver.)",
+      link: "https://github.com/thasuohm/INT203_62130500037/tree/master/62130500037_groupwork_1",
     },
     {
       title: "#2 Product Management Application",
@@ -52,6 +54,8 @@ function Projects() {
         ", This project was created to practice javascript and react skills.",
       vid: [calculatorApp],
       builtWith: "React",
+      linkDes: "Calculator",
+      link: "https://github.com/thasuohm/calculator",
     },
   ];
 
@@ -71,6 +75,11 @@ function Projects() {
                 </>
               )}
               <div className="mt-20 b noto">Built with : {pro.builtWith}</div>
+              {pro.link && (
+                <div className="mt-20 b noto">
+                  link : <a href={pro.link}>{pro.linkDes}</a>
+                </div>
+              )}
             </div>
 
             {pro.img &&
