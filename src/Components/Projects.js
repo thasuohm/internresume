@@ -15,9 +15,9 @@ import "../css/projects.css";
 function Projects() {
   const projects = [
     {
-      title: "#1 Web Copy Project",
+      title: "#1 Home page Web Copy Project",
       description:
-        ", reference from Dropbox, intended to practice HTML CSS JS.",
+        ", reference from Dropbox, intended to practice HTML CSS.",
       img: [project11, project12, project13],
       builtWith: "HTML, CSS",
       linkDes: "Tailwind(ver.)",
