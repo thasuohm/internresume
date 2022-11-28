@@ -35,7 +35,7 @@ const App = () => {
           <div className="info">
             <p>School of Information Technology, KMUTT </p>
             <div className="iconText">
-              <EmailIcon /> <p>thanapat.thz@mail.kmutt.ac.th</p>
+              <EmailIcon /> <a href="mailto:thanapat.suwannaard@gmail.com">thanapat.suwannaard@gmail.com</a>
             </div>
             <div className="iconText">
               <PhoneIcon /> <p className="noto">061-896-9299</p>
