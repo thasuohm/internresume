@@ -22,7 +22,7 @@ const App = () => {
     <div className="container">
       <div>
         <div className="header">
-          <p>Port Folio</p>
+          <p>Portfolio</p>
         </div>
         <div className="profileContent">
           <div>
@@ -58,11 +58,11 @@ const App = () => {
           </p>
           <span>
             Since I started developing web applications. At first, I'm just
-            interested in creating user-friendly applications but when I keep
-            coding for now, I'm very interested in coding about how to make it
-            good while it's simple and clean, and finding a way to increase code
-            performance. I feel that it's the charm that really attracts me to
-            coding and gives me the inspiration to become a software developer.
+            interested in creating user-friendly applications but after I keep
+            coding, I'm very interested in coding about how to make it good
+            performance while it's simple and clean. I feel that it's the charm
+            that really attracts me to coding and gives me the inspiration to
+            become a software engineer.
           </span>
         </div>
 
