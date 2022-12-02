@@ -1,5 +1,5 @@
 
-.logoCard {
+.logo-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,13 +14,13 @@
     border-width: 3px;
   }
   
-  .logoCard > div:last-child {
+  .logo-card > div:last-child {
     padding-top: 6px;
     margin-bottom: -5px;
   }
   
-  .logoCard:hover,
-  .logoCard:focus {
+  .logo-card:hover,
+  .logo-card:focus {
     cursor: pointer;
     border-style: solid;
     border-width: 3px;

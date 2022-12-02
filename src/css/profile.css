@@ -1,4 +1,4 @@
-.profileContent {
+.profile-content {
   margin-top: 5px;
   padding: 20px 20px 20px 0;
   display: grid;
@@ -18,7 +18,7 @@
 }
 
 @media (max-width: 800px) {
-  .profileContent {
+  .profile-content {
     margin-top: 5px;
     display: grid;
     grid-template-columns: auto;
@@ -38,17 +38,18 @@
   font-family: "Noto Sans Mono", monospace;
 }
 
-.profileContent > * {
+.profile-content > * {
   padding-left: 30px;
 }
 
-.iconText {
+.icon-text {
   display: flex;
   flex-direction: row;
+  gap: 8px;
   align-items: center;
 }
 
-.iconText > p {
+.icon-text > p {
   padding-left: 5px;
 }
 

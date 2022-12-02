@@ -19,43 +19,38 @@ const App = () => {
   }, [handlePosition])
 
   return (
-    <div className="container">
-      <div>
-        <div className="header">
-          <p>Portfolio</p>
-        </div>
-        <div className="profileContent">
+    <main className="container">
+      <section>
+        <header className="header">Portfolio</header>
+        <section className="profile-content">
           <div>
             <img src={member37} alt="myphoto" className="image" />
           </div>
           <div className="name">
-            {' '}
             <p> Thanapat Suwannaard</p>
           </div>
           <div className="info">
             <p>School of Information Technology, KMUTT </p>
-            <div className="iconText">
+            <div className="icon-text">
               <EmailIcon />{' '}
               <a href="mailto:thanapat.suwannaard@gmail.com">
                 thanapat.suwannaard@gmail.com
               </a>
             </div>
-            <div className="iconText">
+            <div className="icon-text">
               <PhoneIcon /> <p className="noto">061-896-9299</p>
             </div>
-            <div className="iconText">
+            <div className="icon-text">
               <GitHubIcon />{' '}
               <p>
                 <a href="https://github.com/thasuohm">thasuohm</a>
               </p>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div className="borderBottom">
-          <p>
-            <b className="f21">Inspire</b>
-          </p>
+        <section className="border-bottom">
+          <p className="f21 b">Inspire</p>
           <span>
             Since I started developing web applications. At first, I'm just
             interested in creating user-friendly applications but after I keep
@@ -64,32 +59,28 @@ const App = () => {
             that really attracts me to coding and gives me the inspiration to
             become a software engineer.
           </span>
-        </div>
+        </section>
 
-        <div className="borderBottom">
-          <p>
-            <b className="f21">Skills</b>
-          </p>
-          <div className="skillContainer">
+        <section className="border-bottom">
+          <p className="f21 b">Skills</p>
+          <section className="skill-container">
             <Skills />
-          </div>
-        </div>
-        <div className="projectContainer">
-          <p>
-            <b className="f21 ">My Projects</b>
-          </p>
+          </section>
+        </section>
+        <section className="project-container">
+          <p className="f21 b">My Projects</p>
           <Projects />
-        </div>
-      </div>
-      <div className="bottomBorder" />
+        </section>
+      </section>
+      <div className="bottom-border" />
       {current > 0 && (
         <KeyboardArrowUpIcon
-          className="arrowIcon"
+          className="arrow-icon"
           style={{fontSize: '40px'}}
           onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
         />
       )}
-    </div>
+    </main>
   )
 }
 
